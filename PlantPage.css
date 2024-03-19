@@ -7,6 +7,80 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 500px){
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(15, 85, 15);
+    }
+    
+    .NavItem {
+        color: white;
+        text-decoration: none;
+        font-family: "Abril Fatface", serif;
+        text-shadow: white;
+    }
+    
+    #Container {
+        display: grid;
+        grid-template-columns: 'auto';
+    }
+    
+    #esquerda {
+        padding: 2em;
+        background-color: rgb(255, 255, 255);
+        
+        font-family: "Belleza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    }
+    
+    h2 {
+        font-family: "Kaisei Tokumin", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        font-size: 100px;
+        text-shadow: 2px 2px 8px rgb(255, 255, 255);
+        margin: 0;
+    }
+    
+    h1{
+        border-left: 2px solid black;
+        padding: 0.5em;
+    }
+    
+    #direita {
+        font-family: "Belleza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(231, 202, 202);
+        
+        padding: 1em;
+        line-height: 18px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        text-align: center;
+    
+    }
+    
+    #babosaR {
+        width: 250px;
+        height: auto;
+        float: end;
+        padding: 15px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: "Kaisei Tokumin", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -70,7 +144,7 @@ h1{
 #babosaR {
     width: 250px;
     height: auto;
-    float: inline-end;
+    float: end;
     padding: 15px;
 }
 
