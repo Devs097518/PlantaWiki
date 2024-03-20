@@ -9,6 +9,7 @@ body {
 
 ul{
     list-style-type: none;
+    padding: 0;
 }
 
 @media only screen and (max-width: 716px){
@@ -28,17 +29,22 @@ ul{
 
     #Container {
         display: grid;
-        grid-template-columns: 'auto auto auto auto';
+        grid-template-columns: 'auto';
     }
 
     #esquerda {
         padding: 2em;
         background-color: rgb(255, 255, 255);
-        grid-column: 1/5;
+        grid-column: 1/2;
         font-family: "Belleza", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
+    }
+
+    p{
+        width: 80%;
+        text-align: center;
     }
 
     h2 {
@@ -46,7 +52,7 @@ ul{
         font-weight: 400;
         font-style: normal;
         color: rgb(0, 0, 0);
-        font-size: 100px;
+        font-size: 60px;
         text-shadow: 2px 2px 8px rgb(255, 255, 255);
         margin: 0;
     }
@@ -61,7 +67,7 @@ ul{
         font-weight: 400;
         font-style: normal;
         background-color:  #ffd6c3;
-        grid-column: 1/5;
+        grid-column: 1/2;
         padding: 1em;
         line-height: 18px;
         letter-spacing: 1px;
@@ -71,7 +77,7 @@ ul{
     }
 
     #NavImgL {
-        width: 250px;
+        width: 150px;
         height: auto;
         float: end;
         border-radius: 100%;
@@ -147,7 +153,7 @@ ul{
     }
 
     #NavImgL {
-        width: 250px;
+        width: 210px;
         height: auto;
         float: end;
         border-radius: 100%;
